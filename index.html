@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="情侣两周年网页纪念册" />
+    <title>两周年快乐</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <button class="music-button" id="musicButton" type="button" aria-label="播放或暂停背景音乐">
+      <span class="music-note">♪</span>
+      <span id="musicLabel">音乐</span>
+    </button>
+
+    <audio id="bgMusic" src="./assets/music.mp3" loop preload="none"></audio>
+
+    <main>
+      <section class="section hero" id="home">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-inner">
+          <p class="eyebrow">Our Second Anniversary</p>
+          <h1>两周年快乐</h1>
+          <p class="hero-subtitle">即使隔着时差和距离，我也一直在你身边</p>
+          <p class="days-card" id="daysTogether">我们已经在一起 0 天</p>
+          <button class="primary-button" type="button" data-scroll-to="#timeline">开始我们的故事</button>
+        </div>
+      </section>
+
+      <section class="section" id="timeline">
+        <div class="section-title reveal">
+          <p class="eyebrow">Timeline</p>
+          <h2>我们的时间轴</h2>
+          <p>从遇见到两周年，那些普通又珍贵的日子，慢慢把我们带到了这里。</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <time>2024.6.24</time>
+            <div class="timeline-content">
+              <img src="./assets/photo0.jpg" alt="故事开始的照片" />
+              <div>
+                <h3>故事开始</h3>
+                <p>从这一天开始，我们的故事有了正式的名字</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <time>2024.07</time>
+            <div class="timeline-content">
+              <img src="./assets/photo0.5.jpg" alt="第一次一起出去玩的照片" />
+              <div>
+                <h3>第一次一起出去玩</h3>
+                <p>乐山逛吃嘿嘿嘿</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <time>2024.09</time>
+            <div class="timeline-content">
+              <img src="./assets/photo1.jpg" alt="贵州自驾游的照片" />
+              <div>
+                <h3>贵州自驾游</h3>
+                <p>还记得我使出牛劲划船的姿势吗哈哈哈</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <time>2024.10</time>
+            <div class="timeline-content">
+              <img src="./assets/photo1.5.jpg" alt="西昌旅游的照片" />
+              <div>
+                <h3>西昌自驾游</h3>
+                <p>第一张别其他人拍的合照</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <time>2024.11</time>
+            <div class="timeline-content">
+              <img src="./assets/photo2.jpg" alt="成都大熊猫的照片" />
+              <div>
+                <h3>成都大熊猫基地</h3>
+                <p>参加完你朋友的婚礼，没票了，被迫成都看大熊猫</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <time>2024.12.31-2025.01.01</time>
+            <div class="timeline-content">
+              <img src="./assets/photo2.5.jpg" alt="方特跨年的照片" />
+              <div>
+                <h3>方特跨年</h3>
+                <p>一起跨年看烟花</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <time>2025.01</time>
+            <div class="timeline-content">
+              <img src="./assets/photo3.jpg" alt="成都海洋馆的照片" />
+              <div>
+                <h3>成都海洋馆</h3>
+                <p>看鱼摆摆咯</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <time>2025.02</time>
+            <div class="timeline-content">
+              <img src="./assets/photo4.jpg" alt="峨眉山的照片" />
+              <div>
+                <h3>峨眉山</h3>
+                <p>一起看雪</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <time>2025.03</time>
+            <div class="timeline-content">
+              <img src="./assets/photo5.jpg" alt="宜宾的照片" />
+              <div>
+                <h3>宜宾自驾游</h3>
+                <p>非常不错的李庄古镇</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <time>2025.04</time>
+            <div class="timeline-content">
+              <img src="./assets/photo6.jpg" alt="重庆的照片" />
+              <div>
+                <h3>重庆</h3>
+                <p>Cyberpunk City</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <time>2025.06</time>
+            <div class="timeline-content">
+              <img src="./assets/photo7.jpg" alt="喇叭河的照片" />
+              <div>
+                <h3>喇叭河</h3>
+                <p>我现在好想避暑啊啊啊</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <time>2025.08</time>
+            <div class="timeline-content">
+              <img src="./assets/photo12.jpg" alt="北京的照片" />
+              <div>
+                <h3>首都北京</h3>
+                <p>好玩但是环球影城排队太久了吼吼吼</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <time>2025.09</time>
+            <div class="timeline-content">
+              <img src="./assets/photo13.jpg" alt="青城山的照片" />
+              <div>
+                <h3>青城山</h3>
+                <p>离开前的最后一次旅游</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <time>2025.09-now</time>
+            <div class="timeline-content">
+              <img src="./assets/photo14.jpg" alt="聊天的照片" />
+              <div>
+                <h3>视频聊天</h3>
+                <p>相隔万里也无妨</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section gallery-section" id="gallery">
+        <div class="section-title reveal">
+          <p class="eyebrow">Gallery</p>
+          <h2>照片墙</h2>
+          <p>把舍不得删掉的瞬间，放在这里慢慢看。</p>
+        </div>
+
+        <div class="photo-grid" id="photoGrid"></div>
+      </section>
+
+      <section class="section" id="letter">
+        <div class="section-title reveal">
+          <p class="eyebrow">Letter</p>
+          <h2>写给你的信</h2>
+        </div>
+
+        <article class="letter reveal">
+          <p>肖：</p>
+          <p>乙巳六月，岁满其二。</p>
+          <p>昔日同游山水，共尝烟火，寻常片刻，皆可记也。</p>
+          <p>今虽相隔万里，晨昏异时，然心有所念，便不觉远。</p>
+          <p>愿来日少别离，多相见；慢慢行，长久久。</p>
+          <p class="signature">古德曼</p>
+        </article>
+      </section>
+
+      <section class="section ending" id="ending">
+        <div class="stars" aria-hidden="true"></div>
+        <div class="ending-inner reveal">
+          <div class="heart" aria-hidden="true"></div>
+          <h2>两周年快乐，我爱你</h2>
+          <p>下一次周年，希望我能在你身边</p>
+          <button class="primary-button pale" type="button" data-scroll-to="#home">回到开头</button>
+        </div>
+      </section>
+    </main>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-close" id="lightboxClose" type="button" aria-label="关闭照片预览">×</button>
+      <img id="lightboxImage" src="" alt="放大的照片" />
+      <p id="lightboxCaption"></p>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
